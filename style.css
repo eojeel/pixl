@@ -3,13 +3,17 @@
 @theme {
     --color-pixel: #eca749;
     --color-pixel-light: #eeeeee;
-    --color-pixel-dark: #09090;
+    --color-pixel-dark: #090909;
 
-    --font-pixl: 'Departure Mono', monospace;
-    --default-font-family: var(--font-pixl);
+    --font-pixel: 'Departure Mono', monospace;
+    --default-font-family: var(--font-pixel);
 }
 
 @layer base {
+    *:focus-visible {
+        outline: 2px solid var(--color-pixel);
+    }
+
     @font-face {
         font-family: 'Departure Mono';
         src: url('/fonts/DepartureMono.woff2') format('woff2'),
