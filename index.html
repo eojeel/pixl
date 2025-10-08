@@ -11,11 +11,22 @@
 
 <body class="p-2 bg-pixel-dark text-pixel-light">
     <h1>Welcome to PIXL</h1>
-    <div class="flex gap-2 p-2">
-        <div class="h-8 w-8 bg-pixel"></div>
-        <div class="h-8 w-8 bg-pixel-light"></div>
-        <div class="h-8 w-8 bg-pixel-dark"></div>
+    <div class="absolute inset-0 overflow-clip">
+        <img
+            src="/images/Official-Login-BG.png"
+            alt="background"
+            class="absolute inset-y-0 left-[15%] w-full h-full object-cover mask-1-from-80% opacity-30"
+            />
     </div>
-</body>
 
+<footer class="fixed bottom-0 inset-x-0 pb-3">
+    <div class="flex flex-col gap-1.5 items-center text-pixel p-4">
+        <p>All Rights Reserved. Pixl Media</p>
+        <p class="opacity-50 text-xs">"Except for badgers, they're %$^&holes"</p>
+    </div>
+
+    <!-- white noise -->
+    <div class="absolute bottom-0 h-4 inset-x-0 bg-[url(/images/white-noise.gif)]"></div>
+</footer>
+</body>
 </html>
