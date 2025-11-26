@@ -12,7 +12,9 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "vite": "^7.1.8"
+    "vite": "^7.1.8",
+    "prettier": "^3.0.0",
+    "prettier-plugin-tailwindcss": "^0.5.11"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.1.14",
