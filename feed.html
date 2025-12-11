@@ -15,66 +15,122 @@
       <p>Navigation</p>
     </header>
     <!-- navigation -->
-    <main class="flex flex-col gap-4 overflow-y-auto py-4">
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
-      <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s, when an unknown printer took a galley of type and
-        scrambled it to make a type specimen book. It has survived not only five
-        centuries, but also the leap into electronic typesetting, remaining
-        essentially unchanged. It was popularised in the 1960s with the release
-        of Letraset sheets containing Lorem Ipsum passages, and more recently
-        with desktop publishing software like Aldus PageMaker including versions
-        of Lorem Ipsum.
-      </p>
+    <main class="flex grow flex-col gap-4 overflow-y-auto py-4">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
     </main>
     <!-- sidebar -->
-    <aside class="bg-pixel/50 my-4 w-72 shrink-0">
-      <p>Sidebar</p>
+    <aside class="my-4 w-72 shrink-0 overflow-y-auto">
+      <label>
+        <input
+          type="text"
+          placeholder="Search"
+          class="border-pix border-pixel-light/50 w-full"
+        />
+      </label>
+      <hr class="border-pixel-light/10 mt-2" />
+      <div class="border-pixel-light/10 mt-10 border p-4">
+        <h2 class="text-pixel-light/60 text-sm">Artists to Follow</h2>
+        <ol class="mt-4 flex flex-col gap-2">
+          <li class="flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2.5">
+              <img
+                class="size-8 object-cover"
+                src="https://ui-avatars.com/api/?name=Alex+River"
+                alt="avatar"
+              />
+              <p class="truncate text-sm">Alex River</p>
+            </div>
+            <button
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-4 py-1.5 text-sm"
+            >
+              Follow
+            </button>
+          </li>
+          <li class="flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2.5">
+              <img
+                class="size-8 object-cover"
+                src="https://ui-avatars.com/api/?name=Sarah+Lee"
+                alt="avatar"
+              />
+              <p class="truncate text-sm">Sarah Lee</p>
+            </div>
+            <button
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-4 py-1.5 text-sm"
+            >
+              Follow
+            </button>
+          </li>
+          <li class="flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2.5">
+              <img
+                class="size-8 object-cover"
+                src="https://ui-avatars.com/api/?name=Mike+Chen"
+                alt="avatar"
+              />
+              <p class="truncate text-sm">Mike Chen</p>
+            </div>
+            <button
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-4 py-1.5 text-sm"
+            >
+              Follow
+            </button>
+          </li>
+          <li class="flex items-center justify-between gap-4">
+            <div class="flex items-center gap-2.5">
+              <img
+                class="size-8 object-cover"
+                src="https://ui-avatars.com/api/?name=Emma+Wilson"
+                alt="avatar"
+              />
+              <p class="truncate text-sm">Emma Wilson</p>
+            </div>
+            <button
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-4 py-1.5 text-sm"
+            >
+              Follow
+            </button>
+          </li>
+        </ol>
+        <a href="#" class="text-pixel-light/60 mt-4 inline-block text-sm"
+          >Show More</a
+        >
+      </div>
+
+      <!--- follow idea streams -->
+      <div class="border-pixel-light/10 mt-4 border p-4">
+        <h2 class="text-pixel-light/60 text-sm">Follow Idea Streams</h2>
+        <ol class="mt-2.5 flex flex-col gap-2">
+          <li class="flex items-center justify-between gap-4">
+            <p class="truncate text-sm">Breakfast Ideas testing</p>
+            <buttonmt-2.5
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-1.5 py-0.5 text-2xl leading-none"
+            >
+              +
+            </buttonmt-2.5>
+          </li>
+          <li class="flex items-center justify-between gap-4">
+            <p class="truncate text-sm">Test</p>
+            <button
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-1.5 py-0.5 text-2xl leading-none"
+            >
+              +
+            </button>
+          </li>
+          <li class="flex items-center justify-between gap-4">
+            <p class="truncate text-sm">sauce</p>
+            <button
+              class="bg-pixel-dark/50 hover:bg-pixel-dark/60 active:bg-pixel-dark/75 border-pixel/50 hover:border-pixel/60 active:border-pixel/75 text-pixel border px-1.5 py-0.5 text-2xl leading-none"
+            >
+              +
+            </button>
+          </li>
+        </ol>
+        <a href="#" class="text-pixel-light/60 mt-4 inline-block text-sm"
+          >Show More</a
+        >
+      </div>
     </aside>
   </body>
 </html>
+>
